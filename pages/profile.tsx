@@ -11,18 +11,21 @@ function Profile() {
       <div className="space-y-5 w-[250px]">
         <p>nurse_wrty</p>
         <div className="flex justify-between space-x-2">
-          <p className="font-semibold">
-            1 <span className="text-xs">Posts</span>{" "}
+          <p>
+            <span className="font-semibold">1 </span>
+            <span className="text-xs">Posts</span>
           </p>
           <p>
-            2 <span className="text-xs">Follower</span>{" "}
+            <span className="font-semibold">2 </span>
+            <span className="text-xs">Follower</span>
           </p>
           <p>
-            3 <span className="text-xs">Following</span>{" "}
+            <span className="font-semibold">3 </span>
+            <span className="text-xs">Following</span>
           </p>
         </div>
         <div>
-          <p className="text-xs">Love to try and exploir new things</p>
+          <p className="text-xs">Love to try and explore new things</p>
         </div>
       </div>
     </div>
