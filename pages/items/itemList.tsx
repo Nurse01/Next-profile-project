@@ -1,9 +1,10 @@
 import React from "react";
 import Link from "next/link";
-import ItemsJSON from "./data.json";
+import ItemsJSON from "db.json";
 
 function ItemList() {
-  const Items = ItemsJSON;
+  const Items = ItemsJSON.items;
+  console.log(Items);
   return (
     <div className="grid grid-cols-3 gap-4">
       {Items.map((item) => (

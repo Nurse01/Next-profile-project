@@ -1,0 +1,54 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "name": "Lipstick",
+      "price": 100,
+      "type": "cosmetics",
+      "image": "images/lipstick.jpg",
+      "score": 4.5,
+      "description": "This is a lipstick."
+    },
+    {
+      "id": 2,
+      "name": "Eyeliner",
+      "price": 390,
+      "type": "cosmetics",
+      "image": "images/eyeliner.webp",
+      "score": 4.5,
+      "description": "This is a eyeliner."
+    },
+    {
+      "id": 3,
+      "name": "Powder",
+      "price": 250,
+      "type": "cosmetics",
+      "image": "images/powder.jpg",
+      "score": 4.5,
+      "description": "This is a powder."
+    },
+    {
+      "id": 4,
+      "name": "Keyboard",
+      "price": 1900,
+      "type": "ItGadgets",
+      "image": "images/keyboard.jpg",
+      "score": 4.5,
+      "description": "This is a keyboard."
+    },
+    {
+      "id": 5,
+      "name": "Nike Air force1",
+      "price": 4500,
+      "type": "shoes",
+      "image": "images/nike.webp",
+      "score": 4.5,
+      "description": "This is a nike."
+    }
+  ],
+  "profile": {
+    "username": "nurse_wrty",
+    "image": "/images/profile.jpg",
+    "introduction":"These items are stunning and I am sure you will love them."
+  }
+}
