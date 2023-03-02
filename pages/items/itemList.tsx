@@ -1,43 +1,9 @@
 import React from "react";
 import Link from "next/link";
+import ItemsJSON from "./data.json";
+
 function ItemList() {
-  const Items = [
-    {
-      id: 1,
-      name: "Lipstick",
-      price: 100,
-      type: "cosmetics",
-      image: "images/lipstick.jpg",
-    },
-    {
-      id: 2,
-      name: "Lipstick",
-      price: 100,
-      type: "cosmetics",
-      image: "images/lipstick.jpg",
-    },
-    {
-      id: 3,
-      name: "Lipstick",
-      price: 100,
-      type: "cosmetics",
-      image: "images/lipstick.jpg",
-    },
-    {
-      id: 4,
-      name: "Lipstick",
-      price: 100,
-      type: "cosmetics",
-      image: "images/lipstick.jpg",
-    },
-    {
-      id: 5,
-      name: "Lipstick",
-      price: 100,
-      type: "cosmetics",
-      image: "images/lipstick.jpg",
-    },
-  ];
+  const Items = ItemsJSON;
   return (
     <div className="grid grid-cols-3 gap-4">
       {Items.map((item) => (
