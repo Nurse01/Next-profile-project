@@ -6,8 +6,8 @@ import ItemList from "./itemList";
 function Items() {
   return (
     <div>
-      <div className="flex ">
-        {/* Side nav bar */}
+      <div >
+        {/* nav bar */}
         <Menu />
         {/* Header */}
         <div className="mx-auto py-8 px-5 w-[calc(100%-270px)] max-w-[800px] overflow-y-auto space-y-7">

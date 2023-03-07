@@ -1,28 +1,34 @@
 import React, { useEffect, useState } from "react";
 import { useRouter } from "next/router";
 import Menu from "../menu";
-import itemsJSON from "db.json";
-
+import axios from "axios";
 function Detail() {
   const router = useRouter();
-  const [id, setId] = useState<string>('');
   const [item, setItem] = useState<any>(null);
+  function prepareItem(id) {
+    axios.get(`http://localhost:5000/items/${id}`).then((response) => {
+      setItem(response.data);
+      console.log(response);
+    });
+  }
   useEffect(() => {
-    console.log("mounted" + router.query?.id);
-    
-    if (router.query?.id) {
-      setId(router.query?.id?.toString())
-      setItem(itemsJSON.items.find((item) => item.id === parseInt(id)));
-      console.log("mounted" + id);
+    if (router.query.id) {
+      prepareItem(router.query.id);
+    } else {
+      router.push("/");
     }
   }, []);
-  // const item = itemsJSON.items.find((item) => item.id === id);
-
   return (
-    <div className="flex">
+    <div>
       <Menu />
+      {/* Content */}
       <div className="mx-auto py-8 px-5 w-[calc(100%-270px)] max-w-[800px] overflow-y-auto space-y-7">
-        <p className="heading1">{item?.name}</p>
+        <div className="flex justify-center">
+          <img src={item?.image} alt={item?.name} className="w-[350px] h-[350px]" />
+          <div>
+            <p className="heading1">{item?.name}</p>
+          </div>
+        </div>
       </div>
     </div>
   );

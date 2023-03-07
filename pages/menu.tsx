@@ -2,15 +2,13 @@ import React from "react";
 import Link from "next/link";
 function Menu() {
   return (
-    <div className="h-screen w-[270px] fixed">
-      <div className="w-full z-10 h-full border-r px-5 py-8 ">
-        <div className="flex flex-col gap-y-7 ">
-          <Link href="/items">
-            <div>Home</div>
-          </Link>
-          <div>Search</div>
-          <div>Contact</div>
-        </div>
+    <div className=" w-full h-[50px]  border-b">
+      <div className="h-full flex justify-end items-center gap-x-7 px-7">
+        <Link href="/items">
+          <div>Home</div>
+        </Link>
+        <div>Search</div>
+        <div>Contact</div>
       </div>
     </div>
   );

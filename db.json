@@ -5,7 +5,7 @@
       "name": "Lipstick",
       "price": 100,
       "type": "cosmetics",
-      "image": "images/lipstick.jpg",
+      "image": "https://th-live-02.slatic.net/p/69a7b2c6fb43df59ebf090947047ca24.jpg",
       "score": 4.5,
       "description": "This is a lipstick."
     },
@@ -14,7 +14,7 @@
       "name": "Eyeliner",
       "price": 390,
       "type": "cosmetics",
-      "image": "images/eyeliner.webp",
+      "image": "https://api.watsons.co.th/medias/prd-front-296780.jpg?context=bWFzdGVyfGltYWdlc3w0MTEwNjJ8aW1hZ2UvanBlZ3xoOWEvaDcxLzk3MjAwMjYwMDU1MzQvV1RDVEgtMjk2NzgwLWZyb250LmpwZ3xjZDFlNTFjODU4ZjYyNzhjNzEzNTU4YzhiZGRmZjZjZGRlMmE5N2IwYmY1MWJlM2M0MTQ0MjNlZDAzZDkyOThl",
       "score": 4.5,
       "description": "This is a eyeliner."
     },
@@ -23,7 +23,7 @@
       "name": "Powder",
       "price": 250,
       "type": "cosmetics",
-      "image": "images/powder.jpg",
+      "image": "https://admin.adaddictth.com/storage/img/thumbnail/1590132633_thumpnail.jpg",
       "score": 4.5,
       "description": "This is a powder."
     },
@@ -32,7 +32,7 @@
       "name": "Keyboard",
       "price": 1900,
       "type": "ItGadgets",
-      "image": "images/keyboard.jpg",
+      "image": "https://mercular.s3.ap-southeast-1.amazonaws.com/images/products/2021/06/Royal%20Kludge/RK_RK68_WH_1.PNG",
       "score": 4.5,
       "description": "This is a keyboard."
     },
@@ -41,7 +41,7 @@
       "name": "Nike Air force1",
       "price": 4500,
       "type": "shoes",
-      "image": "images/nike.webp",
+      "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/b7d9211c-26e7-431a-ac24-b0540fb3c00f/%E0%B8%A3%E0%B8%AD%E0%B8%87%E0%B9%80%E0%B8%97%E0%B9%89%E0%B8%B2%E0%B8%9C%E0%B8%B9%E0%B9%89-air-force-1-07-WrLlWX.png",
       "score": 4.5,
       "description": "This is a nike."
     }

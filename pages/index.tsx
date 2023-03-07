@@ -3,7 +3,7 @@ import Homepage from "./homepage";
 export default function Home() {
   return (
     <div className="App w-screen h-screen">
-      <Homepage />
+      <Homepage/>
     </div>
   );
 }
