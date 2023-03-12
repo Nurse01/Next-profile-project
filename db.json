@@ -47,8 +47,32 @@
     }
   ],
   "profile": {
-    "username": "nurse_wrty",
+    "fname": "Warathaya",
+    "lname": "Rattachai",
+    "nickname": "Nurse",
+    "dob": "2001-01-17",
     "image": "/images/profile.jpg",
-    "introduction":"These items are stunning and I am sure you will love them."
+    "tel": "086-511-1059",
+    "email": "wrtyrtc.work@gmail.com",
+    "github": "github.com/Nurse01",
+    "linkedin": "Warathaya Rattachai",
+    "introduction": "I believe that being untalented does not mean you cannot be talented as long as I have curiosity, good intention, sufficient practice, especially adaptive ability.",
+    "Education": [
+      {
+        "id": 1,
+        "startyear": 2012,
+        "endyear": 2018,
+        "school": "Nawaminthrachinuthit Bodindecha School",
+        "major": "Science Math"
+      },
+      {
+        "id": 2,
+        "startyear": 2019,
+        "endyear": 2023,
+        "school": "King Mongkut's University of Technology Thonburi",
+        "major": "B.Sc.Information Technology (IT)"
+      }
+    ],
+    "Hobby": ["Reading books", "Cleaning", " Cooking","Listening to music"]
   }
 }

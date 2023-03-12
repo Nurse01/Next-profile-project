@@ -6,9 +6,10 @@ module.exports = {
     extend: {
       colors: {
         'lilac': '#c9b2c5',
-        'blue': '#afb6e5',
+        'blue': '#192b5d',
         'cream': '#F5F5DC',
         'darkcream': '#ededd8',
+        'darkblue': '#142249',
       },
     },
   },

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useRouter } from "next/router";
-import Menu from "../menu";
+import Contact from "../contact";
 import axios from "axios";
 function Detail() {
   const router = useRouter();
@@ -20,13 +20,15 @@ function Detail() {
   }, []);
   return (
     <div>
-      <Menu />
+      <Contact />
       {/* Content */}
-      <div className="mx-auto py-8 px-5 w-[calc(100%-270px)] max-w-[800px] overflow-y-auto space-y-7">
+      <div className="mx-auto py-7 px-5 ">
         <div className="flex justify-center">
-          <img src={item?.image} alt={item?.name} className="w-[350px] h-[350px]" />
-          <div>
+          <img src={item?.image} alt={item?.name} className="w-[400px] h-[400px] mx-10" />
+          <div className="text-start">
             <p className="heading1">{item?.name}</p>
+            <p className="heading2">Price :{item?.price}</p>
+            <p className="heading2">Description :{item?.description}</p>
           </div>
         </div>
       </div>
