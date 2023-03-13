@@ -19,7 +19,7 @@ function Menu() {
   return (
     // <div className=" w-full h-[50px]  border-b">
     //   <div className="h-full flex justify-end items-center gap-x-7 px-7">
-    <div className="h-screen w-[350px] fixed">
+    <div className="h-screen w-[350px]">
       <div className="w-full z-10 h-full border-r px-5 py-8 ">
         <div className="flex flex-col space-y-28 ">
           {/* Education content */}

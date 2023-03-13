@@ -14,8 +14,8 @@ function ItemList() {
     prepareItems();
   }, []);
   return (
-    <div className="grid grid-cols-3 gap-4 ">
-      {_.map(Items, (item) => (
+    <div className="grid gap-4 grid-cols-3">
+      {/* {_.map(Items, (item) => (
         <div key={item?.id}>
           <Link href={`/items/${item?.id}`}>
             <img
@@ -25,7 +25,7 @@ function ItemList() {
             />
           </Link>
         </div>
-      ))}
+      ))} */}
     </div>
   );
 }

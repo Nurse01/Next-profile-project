@@ -21,7 +21,7 @@
   margin-bottom: 1rem;
   margin-top: 0;
   text-transform: uppercase;
-  text-align: end;
+  /* text-align: end; */
   color: #142249;
 }
 .heading3 {
