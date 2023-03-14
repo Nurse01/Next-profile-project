@@ -11,7 +11,7 @@
   line-height: 1.2;
   margin-bottom: 1rem;
   margin-top: 0;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   color: #142249;
 }
 .heading2 {
@@ -23,6 +23,8 @@
   text-transform: uppercase;
   /* text-align: end; */
   color: #142249;
+  /* border-bottom-width: 2px;
+  border-color: rgb(0 0 0); */
 }
 .heading3 {
   font-size: 1 rem;
@@ -38,10 +40,10 @@ body {
 }
 /* BUTTON */
 .btn-primary {
-  background-color: #4a4a49;
-  border: 1px solid #f5f5dc;
+  background-color: #142249;
+  border: 1px solid #ffffff;
   border-radius: 0.25rem;
-  color: #f5f5dc;
+  color: #ffffff;
   cursor: pointer;
   display: inline-block;
   font-size: 1rem;

@@ -1,16 +1,18 @@
 import { faBriefcase, faLaptopCode, faUser, faUsers } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import React from "react";
+import React, { useRef } from "react";
 import Contact from "./contact";
 import Intro from "./intro";
 function Menu() {
+  const contentRef = useRef<HTMLDivElement>(null);
   return (
     <div className="h-screen w-[350px]">
-      <div className="flex flex-col justify-around  w-full z-10 h-full border-r px-5 divide-y divide-slate-200 ">
+      <div className="flex flex-col justify-around  w-full z-10 h-full border-r px-5  divide-y divide-slate-200 ">
         <Intro/>
         <div className="space-y-7 py-5 ">
-        
-          <div className="flex items-center space-x-2">
+          <div className="flex items-center space-x-2" onClick={()=>{
+            contentRef.current.scroll({ top: 500, behavior: "smooth" });
+          }}>
             <FontAwesomeIcon icon={faUser} />
             <p className="heading3">About Me</p>
           </div>

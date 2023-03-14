@@ -25,21 +25,19 @@ function Menu() {
           {/* Education content */}
           <div className="space-y-6">
             <p className="heading2 ">Education</p>
-            <div>
-              {_.map(profile.Education, (education) => (
-                <div key={education?.id}>
-                  <div className="flex justify-between items-start mb-5">
-                    <div>
-                      <p className="w-[200px] heading3">{education?.school}</p>
-                      <p>{education?.major}</p>
-                    </div>
-                    <div className="font-semibold text-xs">
-                      {education?.startyear} - {education?.endyear}
-                    </div>
+            {_.map(profile.Education, (education) => (
+              <div key={education?.id}>
+                <div className="flex justify-between items-start  mb-5">
+                  <div>
+                    <p className="w-[200px] heading3">{education?.school}</p>
+                    <p>{education?.major}</p>
+                  </div>
+                  <div className="font-semibold text-xs">
+                    {education?.startyear} - {education?.endyear}
                   </div>
                 </div>
-              ))}
-            </div>
+              </div>
+            ))}
           </div>
           {/* Hobby Content */}
           <div className="space-y-6">
